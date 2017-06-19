@@ -13,6 +13,8 @@
 		C708B89A1ED969EC003BA070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C708B8981ED969EC003BA070 /* Main.storyboard */; };
 		C708B89C1ED969EC003BA070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C708B89B1ED969EC003BA070 /* Assets.xcassets */; };
 		C708B89F1ED969EC003BA070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C708B89D1ED969EC003BA070 /* LaunchScreen.storyboard */; };
+		C708B8A81ED97744003BA070 /* FlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C708B8A71ED97744003BA070 /* FlashCardViewController.m */; };
+		C708B8AB1EDAD3ED003BA070 /* WikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C708B8AA1EDAD3ED003BA070 /* WikiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		C708B89B1ED969EC003BA070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C708B89E1ED969EC003BA070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C708B8A01ED969EC003BA070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C708B8A61ED97744003BA070 /* FlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardViewController.h; sourceTree = "<group>"; };
+		C708B8A71ED97744003BA070 /* FlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardViewController.m; sourceTree = "<group>"; };
+		C708B8A91EDAD3ED003BA070 /* WikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiViewController.h; sourceTree = "<group>"; };
+		C708B8AA1EDAD3ED003BA070 /* WikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				C708B8951ED969EC003BA070 /* ViewController.h */,
 				C708B8961ED969EC003BA070 /* ViewController.m */,
 				C708B8981ED969EC003BA070 /* Main.storyboard */,
+				C708B8A91EDAD3ED003BA070 /* WikiViewController.h */,
+				C708B8AA1EDAD3ED003BA070 /* WikiViewController.m */,
+				C708B8A61ED97744003BA070 /* FlashCardViewController.h */,
+				C708B8A71ED97744003BA070 /* FlashCardViewController.m */,
 				C708B89B1ED969EC003BA070 /* Assets.xcassets */,
 				C708B89D1ED969EC003BA070 /* LaunchScreen.storyboard */,
 				C708B8A01ED969EC003BA070 /* Info.plist */,
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					C708B88B1ED969EC003BA070 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DQCNUZZSN6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C708B8971ED969EC003BA070 /* ViewController.m in Sources */,
+				C708B8AB1EDAD3ED003BA070 /* WikiViewController.m in Sources */,
 				C708B8941ED969EC003BA070 /* AppDelegate.m in Sources */,
 				C708B8911ED969EC003BA070 /* main.m in Sources */,
+				C708B8A81ED97744003BA070 /* FlashCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DQCNUZZSN6;
 				INFOPLIST_FILE = FlashCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewlim7.FlashCards;
@@ -283,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DQCNUZZSN6;
 				INFOPLIST_FILE = FlashCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewlim7.FlashCards;
@@ -309,6 +324,7 @@
 				C708B8A51ED969EC003BA070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
